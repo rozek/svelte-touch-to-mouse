@@ -14,7 +14,7 @@ npm install svelte-touch-to-mouse
 <style>
   div {
     -webkit-touch-callout:none;
-    -ms-touch-action: none; touch-action: none;
+    -ms-touch-action:none; touch-action:none;
   }
 </style>
 
@@ -32,7 +32,7 @@ This module was initially developed in order to make [svelte-agnostic-draggable]
 
 ### Background Information ###
 
-There still exist numerous JavaScript libraries and frameworks dealing with `MouseEvent`s only - and ignoring the `TouchEvent`s used on mobile devices. This simple module maps `TouchEvent`s to corresponding `MouseEvent`s and, thus, allows such libraries to be used on mobile devices as well.
+There still exist numerous JavaScript libraries and frameworks dealing with `MouseEvent`s only - ignoring the `TouchEvent`s used on mobile devices. This simple module maps `TouchEvent`s to corresponding `MouseEvent`s and, thus, allows such libraries to be used on mobile devices as well.
 
 It does so by mapping events for certain HTML elements only in order to avoid undesired side effects on other elements.
 
