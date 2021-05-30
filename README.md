@@ -28,7 +28,7 @@ npm install svelte-touch-to-mouse
 
 ### Examples ###
 
-This module was initially developed in order to make [svelte-agnostic-draggable](https://github.com/rozek/svelte-agnostic-draggable) "mobile capable" - please, look there for some examples.
+This module was initially developed in order to make [svelte-agnostic-draggable](https://github.com/rozek/svelte-agnostic-draggable) "mobile capable" - for that reason, please, look there for some meaningful examples.
 
 ### Background Information ###
 
