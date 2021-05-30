@@ -19,7 +19,7 @@ npm install svelte-touch-to-mouse
 </style>
 
 <script>
-  import mapTouchToMouseFor from './svelte-touch-to-mouse.js'
+  import mapTouchToMouseFor from 'svelte-touch-to-mouse'
   mapTouchToMouseFor('div')
 </script>
 
