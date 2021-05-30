@@ -1,0 +1,26 @@
+{
+  "name": "svelte-touch-to-mouse",
+  "version": "0.1.0",
+  "description": "maps touch events to mouse events",
+  "main": "svelte-touch-to-mouse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rozek/svelte-touch-to-mouse.git"
+  },
+  "keywords": [
+    "svelte",
+    "svelte3",
+    "touchevent",
+    "mouseevent",
+    "mobile"
+  ],
+  "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rozek/svelte-touch-to-mouse/issues"
+  },
+  "homepage": "https://github.com/rozek/svelte-touch-to-mouse#readme"
+}
