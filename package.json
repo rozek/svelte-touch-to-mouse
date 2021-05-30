@@ -1,6 +1,6 @@
 {
   "name": "svelte-touch-to-mouse",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "maps touch events to mouse events",
   "main": "svelte-touch-to-mouse.js",
   "scripts": {
