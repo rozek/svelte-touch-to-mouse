@@ -46,7 +46,7 @@ Presumably, you also want to apply the following CSS settings to all HTML elemen
 
 ```
 -webkit-touch-callout:none;
--ms-touch-action: none; touch-action: none;
+-ms-touch-action:none; touch-action:none;
 ```
 
 for the `MouseEvent` consumers to work as expected.
