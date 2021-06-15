@@ -1,6 +1,6 @@
 # svelte-touch-to-mouse #
 
-maps touch events to mouse events
+maps touch events to mouse events (not only for Svelte)
 
 **NPM users**: please consider the [Github README](https://github.com/rozek/svelte-touch-to-mouse/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
