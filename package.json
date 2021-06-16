@@ -2,11 +2,11 @@
   "name": "svelte-touch-to-mouse",
   "version": "0.1.4",
   "description": "maps touch events to mouse events",
-  "main": "svelte-touch-to-mouse.js",
-  "module": "./svelte-touch-to-mouse.esm.js",
+  "main": "./dist/svelte-touch-to-mouse.js",
+  "module": "./dist/svelte-touch-to-mouse.esm.js",
   "exports": {
-    "require": "./svelte-touch-to-mouse.js",
-    "import": "./svelte-touch-to-mouse.esm.js"
+    "require": "./dist/svelte-touch-to-mouse.js",
+    "import": "./dist/svelte-touch-to-mouse.esm.js"
   },
   "scripts": {
     "build": "rimraf dist && tsc && rollup -c rollup.config.js",
