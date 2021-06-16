@@ -7,7 +7,7 @@ export default {
   input: './src/svelte-touch-to-mouse.ts',
   output: [
     {
-      ile:     './dist/svelte-touch-to-mouse.js',
+      file:      './dist/svelte-touch-to-mouse.js',
       format:    'umd', // builds for both Node.js and Browser
       name:      'mapTouchToMouseFor', // required for UMD modules
       noConflict:true,
