@@ -17,11 +17,9 @@
     "url": "git+https://github.com/rozek/svelte-touch-to-mouse.git"
   },
   "keywords": [
-    "svelte",
-    "svelte3",
-    "touchevent",
-    "mouseevent",
-    "mobile"
+    "touch-events",
+    "mouse-events",
+    "mouse-emulation"
   ],
   "author": "Andreas Rozek <a.rozek@gmx.de> (https://www.rozek.de/)",
   "license": "MIT",
