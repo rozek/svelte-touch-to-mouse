@@ -4,13 +4,13 @@ maps touch events to mouse events (not only for Svelte)
 
 **NPM users**: please consider the [Github README](https://github.com/rozek/svelte-touch-to-mouse/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
-### Installation ###
+## Installation ##
 
 ```
 npm install svelte-touch-to-mouse
 ```
 
-### Usage ###
+## Usage ##
 
 ```
 <style>
@@ -28,11 +28,11 @@ npm install svelte-touch-to-mouse
 <div>just as an example - works with other elements as well</div>
 ```
 
-### Examples ###
+## Examples ##
 
 This module was initially developed in order to make [svelte-agnostic-draggable](https://github.com/rozek/svelte-agnostic-draggable) "mobile capable" - for that reason, please, look there for some meaningful examples.
 
-### Background Information ###
+## Background Information ##
 
 There still exist numerous JavaScript libraries and frameworks dealing with `MouseEvent`s only - ignoring the `TouchEvent`s used on mobile devices. This simple module maps `TouchEvent`s to corresponding `MouseEvent`s and, thus, allows such libraries to be used on mobile devices as well.
 
@@ -53,7 +53,7 @@ Presumably, you also want to apply the following CSS settings to all HTML elemen
 
 for the `MouseEvent` consumers to work as expected.
 
-### Build Instructions ###
+## Build Instructions ##
 
 You may easily build this package yourself.
 
@@ -63,3 +63,7 @@ Just install [NPM](https://docs.npmjs.com/) according to the instructions for yo
 2. open a shell and navigate to the root directory of this repository
 3. run `npm install` in order to install the complete build environment
 4. execute `npm run build` to create a new build
+
+## License ##
+
+[MIT License](LICENSE.md)
