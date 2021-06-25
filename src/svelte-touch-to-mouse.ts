@@ -1,3 +1,7 @@
+//----------------------------------------------------------------------------//
+//                           Svelte Touch-to-Mouse                            //
+//----------------------------------------------------------------------------//
+
 // see https://stackoverflow.com/questions/1517924/javascript-mapping-touch-events-to-mouse-events
 // and https://stackoverflow.com/questions/5885808/includes-touch-events-clientx-y-scrolling-or-not
 
