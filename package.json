@@ -4,6 +4,7 @@
   "description": "maps touch events to mouse events",
   "main": "./dist/svelte-touch-to-mouse.js",
   "module": "./dist/svelte-touch-to-mouse.esm.js",
+  "svelte": "./dist/svelte-touch-to-mouse.esm.js",
   "exports": {
     "require": "./dist/svelte-touch-to-mouse.js",
     "import": "./dist/svelte-touch-to-mouse.esm.js"
