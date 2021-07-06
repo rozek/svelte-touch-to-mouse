@@ -6,7 +6,7 @@ maps touch events to mouse events (not only for Svelte)
 
 ## Installation ##
 
-`svelte-touch-to-mouse` may be used as an ESM, CommonJS or AMD module or from a global variable.
+`svelte-touch-to-mouse` may be used as an ECMAScript module (ESM), a CommonJS or AMD module or from a global variable.
 
 You may either install the package into your build environment using [NPM](https://docs.npmjs.com/) with the command
 
@@ -30,7 +30,9 @@ How to access the package depends on the type of module you prefer
 
 Alternatively, you may access the global variable `mapTouchToMouseFor` directly.
 
-## Usage as an ECMAscript Module (e.g., within Svelte) ##
+## Usage within Svelte ##
+
+For Svelte, it is recommended to import the package in a module context. From then on, its exports may be used as usual:
 
 ```
 <style>
@@ -40,15 +42,18 @@ Alternatively, you may access the global variable `mapTouchToMouseFor` directly.
   }
 </style>
 
-<script>
+<script context="module">
   import mapTouchToMouseFor from 'svelte-touch-to-mouse'
+</script>
+
+<script>
   mapTouchToMouseFor('div')
 </script>
 
 <div>just as an example - works with other elements as well</div>
 ```
 
-## Usage as a CommonJS or AMD Module (or as a global Variable) ##
+## Usage as ECMAScript, CommonJS or AMD Module (or as a global Variable) ##
 
 Let's assume that you already "required" or "imported" (or simply loaded) the module according to your local environment. In that case, you may use it as follows:
 
