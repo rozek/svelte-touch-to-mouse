@@ -24,7 +24,7 @@ or load the plain script file directly
 
 How to access the package depends on the type of module you prefer
 
-* ESM: `import mapTouchToMouseFor from 'svelte-touch-to-mouse'`
+* ESM (or Svelte): `import mapTouchToMouseFor from 'svelte-touch-to-mouse'`
 * CommonJS: `const mapTouchToMouseFor = require('svelte-touch-to-mouse')`
 * AMD: `require(['svelte-touch-to-mouse'], (mapTouchToMouseFor) => {...})`
 
