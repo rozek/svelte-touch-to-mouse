@@ -48,12 +48,13 @@ function mapTouchToMouseFor(Selector) {
         var simulatedEvent = new MouseEvent(simulatedEventType, {
             bubbles: true, cancelable: true,
             screenX: firstTouch.screenX, screenY: firstTouch.screenY,
-            clientX: clientX, clientY: clientY, buttons: 1, button: 0,
+            // @ts-ignore we definitely want "pageX" and "pageY"
+            clientX: clientX, clientY: clientY, pageX: pageX, pageY: pageY, buttons: 1, button: 0,
             ctrlKey: originalEvent.ctrlKey, shiftKey: originalEvent.shiftKey,
             altKey: originalEvent.altKey, metaKey: originalEvent.metaKey
         });
         firstTouch.target.dispatchEvent(simulatedEvent);
-        originalEvent.preventDefault();
+        //    originalEvent.preventDefault()
     }
     document.addEventListener('touchstart', TouchEventMapper, true);
     document.addEventListener('touchmove', TouchEventMapper, true);
