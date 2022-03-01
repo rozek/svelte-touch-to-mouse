@@ -18,7 +18,7 @@ npm install svelte-touch-to-mouse
 
 or load the plain script file directly
 
-```
+```html
 <script src="https://unpkg.com/svelte-touch-to-mouse"></script>
 ```
 
@@ -36,7 +36,7 @@ Alternatively, you may access the global variable `mapTouchToMouseFor` directly.
 
 For Svelte, it is recommended to import the package in a module context. From then on, its exports may be used as usual:
 
-```
+```html
 <style>
   div {
     -webkit-touch-callout:none;
@@ -59,7 +59,7 @@ For Svelte, it is recommended to import the package in a module context. From th
 
 Let's assume that you already "required" or "imported" (or simply loaded) the module according to your local environment. In that case, you may use it as follows:
 
-```
+```javascript
 mapTouchToMouseFor('div')
 ```
 
