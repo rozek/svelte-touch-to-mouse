@@ -4,6 +4,8 @@ maps touch events to mouse events (not only for Svelte)
 
 **NPM users**: please consider the [Github README](https://github.com/rozek/svelte-touch-to-mouse/blob/main/README.md) for the latest description of this package (as updating the docs would otherwise always require a new NPM package version)
 
+> Note: this code generates events of type `mousemove`, `mousedown` and `mouseup` - it does _not_ (yet) generate `mouseenter`, `mouseleave`, `mouseover` or `mouseout` events. Additionally, `mousemove` events continue to fire even after the touchpoint has left the HTML element where the touch started
+
 > Just a small note: if you like this module and plan to use it, consider "starring" this repository (you will find the "Star" button on the top right of this page), so that I know which of my repositories to take most care of.
 
 ## Installation ##
